@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gainsboro;
+}
+
+.wrap {
+    text-align: center;
+    padding: 150px 0 0;
+}
+
+h1 {
+    font-size: 58px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    background-color: #fff;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+#date {
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 42px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px #bebebe;
+}
+
+#clock {
+    margin-bottom: 30px;
+}
+
+#clock span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #3f58b5;
+    box-shadow: 0 5px 15px #3f58b5;
+    color: #fff;
+    margin: 0 15px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+}
+
+button img {
+    width: 50px;
+    height: 50px;
+}
+
+#help {
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 42px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+#contact {
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 42px;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px #bebebe;
+}
+
+@keyframes contact {
+    30%{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .wrap {
+        text-align: center;
+        padding: 95px 0 0;
+    }
+
+    h1 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+    
+    h3 {
+        background-color: #fff;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    #date {
+        background-color: #fff;
+        display: inline-block;
+        border-radius: 4px;
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 15px #bebebe;
+    }
+    
+    #clock {
+        margin-bottom: 30px;
+    }
+    
+    #clock span {
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        background-color: #3f58b5;
+        box-shadow: 0 5px 15px #3f58b5;
+        color: #fff;
+        margin: 0 15px;
+    }
+    
+    button {
+        border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+        width: 50px;
+        height: 50px;
+    }
+    
+    button img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #help {
+        display: inline-block;
+        border-radius: 4px;
+        font-size: 42px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: none;
+    }
+    
+    #contact {
+        background-color: #fff;
+        display: inline-block;
+        border-radius: 4px;
+        font-size: 38px;
+        padding: 10px 15px;
+        box-shadow: 0 5px 15px #bebebe;
+    }    
+}
